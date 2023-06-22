@@ -26,6 +26,6 @@ mongoose.connect(Dburl)
     Books.insertMany(bookData);
 })
 
-module.exports = Books
+module.exports = Books;
 
 
